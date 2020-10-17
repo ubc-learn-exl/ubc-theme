@@ -1,0 +1,54 @@
+$primary-blue: #002145;
+$white: #ffffff;
+
+$secondary-blue1: #0055b7;
+$secondary-blue2: #00a7e1;
+$secondary-blue3: #40b4e5;
+$secondary-blue4: #6ec4e8;
+$secondary-blue5: #97d4e9;
+
+$main-color: $primary-blue !default;
+$link-color: $secondary-blue1 !default;
+
+$btn-primary-bg: $primary-blue;
+$btn-primary-color: $white;
+$btn-primary-border-color: $primary-blue;
+$btn-primary-hover-bg: $secondary-blue1;
+$btn-primary-hover-color: $white;
+$btn-primary-hover-border-color: $secondary-blue1;
+
+$btn-secondary-bg: $primary-blue;
+$btn-secondary-color: $white;
+$btn-secondary-border-color: $primary-blue;
+$btn-secondary-hover-bg: $secondary-blue1;
+$btn-secondary-hover-color: $white;
+$btn-secondary-hover-border-color: $secondary-blue1;
+
+$customize-sign-in-btn: true;
+$btn-sign-in-bg: $primary-blue;
+$btn-sign-in-color: $white;
+$btn-sign-in-border-color: $primary-blue;
+$btn-sign-in-hover-bg: $secondary-blue1;
+$btn-sign-in-hover-color: $white;
+$btn-sign-in-hover-border-color: $secondary-blue1;
+
+$customize-register-btn: true;
+$btn-register-bg: $secondary-blue1;
+$btn-register-color: $white;
+$btn-register-border-color: $secondary-blue1;
+$btn-register-hover-bg: $secondary-blue2;
+$btn-register-hover-color: $white;
+$btn-register-hover-border-color: $secondary-blue2;
+
+$customize-logistration-action-btn: true;
+$btn-logistration-bg: $primary-blue;
+$btn-logistration-color: $white;
+$btn-logistration-border-color: $primary-blue;
+$btn-logistration-hover-bg: $secondary-blue1;
+$btn-logistration-hover-color: $white;
+$btn-logistration-hover-border-color: $secondary-blue1;
+
+$login-register-header-color: $primary-blue;
+$wrapper-preview-menu-color: $secondary-blue1;
+
+$homepage-bg-image: url("../images/hero_banner.jpg");
