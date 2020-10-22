@@ -171,7 +171,8 @@
                             &copy; {% now "Y" %} {{ platform_name }}, {% trans "All rights reserved" as tmsg %}{{ tmsg | force_escape }}.<br/>
                             <br/>
                             {% trans "Our mailing address is" as tmsg %}{{ tmsg | force_escape }}:<br/>
-                            {{ contact_mailing_address }}
+                            <!-- Revert this back to default base_body.html text once https://github.com/edx/edx-platform/pull/25405 gets merged -->
+                            UBC Extended Learning, 410-5950 University Boulevard, Vancouver, BC V6T 1Z3, Canada
                         </td>
                     </tr>
                     {% if unsubscribe_url %}
