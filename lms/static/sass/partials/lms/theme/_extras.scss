@@ -5,3 +5,48 @@
 // rules into modular pieces.
 
 @import '../theme-overrides';
+
+.home {
+  > header {
+    @media (min-width: 1800px) {
+      background-position-y: -50px;
+    }
+
+    .outer-wrapper {
+      padding: 100px 60px;
+      display: flex;
+
+      @include media-breakpoint-up(lg) {
+        height: 400px;
+      }
+
+      .title {
+        align-self: center;
+        margin-left: unset;
+        box-shadow: unset;
+        background: unset;
+        font-size: 1.3rem;
+        color: white;
+
+        h1,
+        h2 {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.wrapper-footer {
+  .wrapper-logo {
+    position: relative;
+    height: 56px;
+
+    a > img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+    }
+  }
+}
