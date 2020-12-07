@@ -53,4 +53,12 @@
       height: 100%;
     }
   }
+
+  .nav-legal {
+
+    // removing the link for free online edX.org courses
+    li:last-child {
+      display: none !important;
+    }
+  }
 }
