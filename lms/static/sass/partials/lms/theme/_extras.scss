@@ -44,7 +44,7 @@
 .wrapper-footer {
   .wrapper-logo {
     position: relative;
-    height: 56px;
+    height: 42px;
 
     a > img {
       position: absolute;
@@ -60,5 +60,11 @@
     li:last-child {
       display: none !important;
     }
+  }
+}
+
+.contact-us-wrapper {
+  .alert-warning {
+    display: none;
   }
 }
