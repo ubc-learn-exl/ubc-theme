@@ -2,7 +2,7 @@
 
 This skeleton theme is used to customize the themes of Open edX instances using the `simple-theme` role from the `edx/configuration` repository.
 
-# List of available SASS variables for customization
+## List of available SASS variables for customization
 
 Below is the list of available SASS variables for customization. Check `lms/static/sass/theme-overrides.scss` for the details of what these variables are used for and as the authoritative source for the list of variables.
 
@@ -89,3 +89,9 @@ Of these variables,
 * $btn-secondary-hover-border-color
 
 are required. All the other variables are optional.
+
+## McDaniel
+
+original remote:
+origin	https://gitlab.com/ubc-learn.exl/ubc-theme.git (fetch)
+origin	https://gitlab.com/ubc-learn.exl/ubc-theme.git (push)
